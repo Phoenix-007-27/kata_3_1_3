@@ -20,7 +20,6 @@ import java.util.Set;
 
 
 @Repository
-@Transactional
 public class UserDaoImpl implements UserDao {
 
     private EntityManager entityManager;
