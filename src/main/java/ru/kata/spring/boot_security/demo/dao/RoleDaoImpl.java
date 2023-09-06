@@ -13,7 +13,6 @@ import java.util.List;
 
 
 @Repository
-@Transactional
 public class RoleDaoImpl implements RoleDao {
 
     private EntityManager entityManager;
